@@ -166,33 +166,9 @@ a:active {
     color: red;
 }
 
-/*this is for the background video*/
-.background{
-
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    /*z-index: -100;*/
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(polina.jpg) no-repeat;
-    background-size: cover;
+a images{
+  font-size: 5em;
+  font-family: 'Permanent Marker', cursive;
+    color: red;
+    background-color: inherit;
 }
-.back{
-position: absolute;
-top:0;
-bottom: 0;
-left: 0;
-right:0;
-/*justify-content: center;*/
-z-index: -1;
-
-}
-
-/*contact page styles*/
