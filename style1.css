@@ -1,0 +1,198 @@
+images{
+  display: flex;
+  position: relative;
+  align-items: center;
+   /*justify-content:center;*/
+
+}
+figure{
+
+  /*width: 202px;
+  height: 170px;*/
+
+  align-items: center;
+   justify-content:center;
+
+  text-align: left;
+
+}
+figure img{
+
+  flex-direction: row;
+   flex-wrap: wrap;
+   /*flex-flow: row wrap;*/
+   /*align-content: flex-end;*/
+   justify-content: center;
+
+  border: 15px solid white;
+
+}
+figcaption{
+  font-family: 'Permanent Marker', cursive;
+  color:red;
+
+  padding-left: 15px;
+  background-repeat: no-repeat;
+  }
+a {
+    text-decoration:none;
+}
+h3{
+  font-family: 'Permanent Marker', cursive;
+    color: red;
+font-size: 64px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+p{
+  font-family: 'Permanent Marker', cursive;
+    color: white;
+font-size: 1em;
+  background-color: black;
+}
+h4{font-family: 'Permanent Marker', cursive;
+  color: white;
+font-size: 1em;
+
+   }
+
+.content1{
+      padding: 0px 20px 50px 20px;
+  background-color: black;
+}
+.header1{
+font-family: 'Permanent Marker', cursive;
+  color: black;
+
+}
+
+.header1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+ }
+ .contact1{
+
+  color: black;
+margin-right:inherit;
+font-family: 'Permanent Marker', cursive;
+
+ }
+ .gallery1{
+
+     color: black;
+   margin-left: inherit;
+   font-family: 'Permanent Marker', cursive;
+
+
+ }
+ .body1{
+
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: center;
+   align-items: baseline;
+ }
+
+.logo1{
+
+    color: white;
+  margin: 20px;
+  width:235px;
+border: 4px solid black;
+
+
+}
+
+.item1 {
+
+    color: black;
+ text-align: center;
+
+  width :50%;
+  font-weight: 600;
+}
+
+
+.logo1{
+
+  color: black;
+     display: flex;
+     flex-wrap: wrap;
+align-content: center;
+
+}
+.footer1{
+
+  font-family: 'Permanent Marker', cursive;
+  color:black;
+
+}
+.footer1{
+  display: flex;
+  justify-content: center;
+}
+
+.back1{
+/*position: absolute;*/
+background-color: black;
+top:0;
+bottom: 0;
+left: 0;
+right:0;
+/*justify-content: center;*/
+z-index: -1;
+
+}
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: red;
+}
+
+/*this is for the background video*/
+.background{
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    /*z-index: -100;*/
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+.back{
+position: absolute;
+top:0;
+bottom: 0;
+left: 0;
+right:0;
+/*justify-content: center;*/
+z-index: -1;
+
+}
+
+/*contact page styles*/

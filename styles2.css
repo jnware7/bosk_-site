@@ -1,0 +1,134 @@
+
+
+ #right {
+   justify-content: left;
+   float: right;
+   width: 45%;
+   height: 100%;
+   background-color: black;
+ }
+ #left {
+  justify-content: center;
+ }
+
+ /* unvisited link */
+ a:link {
+     color: black;
+ }
+
+ /* visited link */
+ a:visited {
+     color: black;
+ }
+
+ /* mouse over link */
+ a:hover {
+     color: red;
+ }
+
+ /* selected link */
+ a:active {
+     color: red;
+ }
+
+
+ a {
+     text-decoration:none;
+ }
+ h3{
+   font-family: 'Permanent Marker', cursive;
+     color: red;
+ font-size: 64px;
+ margin-top: 0px;
+ margin-bottom: 0px;
+ }
+ p{
+   font-family: 'Permanent Marker', cursive;
+     color: white;
+ font-size: 1em;
+   background-color: black;
+ }
+ h4{font-family: 'Permanent Marker', cursive;
+   color: white;
+ font-size: 1em;
+
+    }
+
+ .content1{
+       padding: 0px 20px 50px 20px;
+   background-color: black;
+ }
+ .header1{
+ font-family: 'Permanent Marker', cursive;
+   color: black;
+
+ }
+
+ .header1{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   text-align: center;
+  }
+  .contact1{
+
+   color: black;
+ margin-right:inherit;
+ font-family: 'Permanent Marker', cursive;
+
+  }
+  .gallery1{
+
+      color: black;
+    margin-left: inherit;
+    font-family: 'Permanent Marker', cursive;
+
+
+  }
+  .body1{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+  }
+
+ .logo1{
+
+     color: white;
+   margin: 20px;
+   width:235px;
+ border: 4px solid black;
+
+
+ }
+
+ .item1 {
+
+     color: black;
+  text-align: center;
+
+   width :50%;
+   font-weight: 600;
+ }
+
+
+ .logo1{
+
+   color: black;
+      display: flex;
+      flex-wrap: wrap;
+ align-content: center;
+
+ }
+ .footer1{
+
+   font-family: 'Permanent Marker', cursive;
+   color:black;
+
+ }
+ .footer1{
+   display: flex;
+   justify-content: center;
+ }
