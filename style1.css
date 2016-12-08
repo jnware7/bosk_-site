@@ -44,7 +44,7 @@ font-size: 64px;
 margin-top: 0px;
 margin-bottom: 0px;
 }
-p{
+p , script{
   font-family: 'Permanent Marker', cursive;
     color: white;
 font-size: 1em;
@@ -166,9 +166,6 @@ a:active {
     color: red;
 }
 
-a images{
-  font-size: 5em;
-  font-family: 'Permanent Marker', cursive;
-    color: red;
-    background-color: inherit;
-}
+/*a#top:active {
+  /* your code here */
+/*}*/
