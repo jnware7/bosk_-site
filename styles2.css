@@ -1,5 +1,6 @@
-body{
-  align-items: baseline;
+#social {
+  max-width:100%;
+height:auto;
 }
 .sidemenu{
   position: absolute;

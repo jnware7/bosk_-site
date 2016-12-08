@@ -1,7 +1,9 @@
-images{
+.images{
   display: flex;
-  position: relative;
-  align-items: center;
+  justify-content:center;
+  align-items:center;
+flex-direction: column;
+
    /*justify-content:center;*/
 
 }
@@ -10,14 +12,14 @@ figure{
   /*width: 202px;
   height: 170px;*/
 
-  align-items: center;
-   justify-content:center;
+align-content: center;
+   justify-content: space-between;
 
   text-align: left;
 
 }
 figure img{
-
+  justify-content: space-between;
   flex-direction: row;
    flex-wrap: wrap;
    /*flex-flow: row wrap;*/
