@@ -23,6 +23,17 @@ iframe{
    height: 100%;
    background-color: black;
  }
+ .form{
+   position: absolute;
+   right: 8px;
+   justify-content: left;
+   float: right;
+   width: 45%;
+   height: 100%;
+   background-color: black;
+ }
+ }
+ }
  #left {
 
   position: absolute;
@@ -119,6 +130,7 @@ iframe{
      color: white;
    margin: 20px;
    width:235px;
+   height:235px;
  border: 4px solid black;
 
 
