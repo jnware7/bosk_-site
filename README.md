@@ -18,12 +18,14 @@ As you work on this goal, consider these questions:
 - When content needs to be re-used in different places, how can templates and/or components be deployed to avoid duplicating code?
 - Why is browser compatibility important and what are some ways to test for it?
 ## Specifications
+
 - [ ] Site has at least 3 pages.
 - [ ] Site is _not_ published on the web*.
 - [ ] Site can be viewed locally on a browser by opening its `index.html` file.
 - [ ] All links work correctly (i.e. no broken links).
 - [ ] All images and other external resources load correctly.
 ## Stretch Goals
+
 - [ ] Whole site is responsive.
 - [ ] Integrate an API from social media site ex (tumbler)
 
