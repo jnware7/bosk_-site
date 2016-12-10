@@ -1,3 +1,7 @@
+
+img{
+  display: inline;
+}
 .images {
     display: flex;
     justify-content: center;
@@ -39,7 +43,7 @@ h3 {
 }
 
 p, script {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Futura', cursive;
     color: white;
     font-size: 1em;
     background-color: black;
